@@ -14,6 +14,7 @@ module "ec2" {
     ec2_count= 1
     instance_type="t2.micro"
     subnet_id ="${module.vpc.subnet_id}"
+    ami_id ="ami-5a8da73d"
 
 
   
